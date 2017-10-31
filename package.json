@@ -1,0 +1,39 @@
+{
+  "name": "react-material-ui",
+  "version": "1.0.0",
+  "description": "An example of React with Material UI components",
+  "scripts": {
+    "build": "npm run webpack-build",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack-build": "webpack --progress --colors ",
+    "webpack-watch": "webpack --progress --colors --watch",
+    "webpack-serve": "webpack-dev-server --progress --colors --content-base public/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuperman/react-material-ui.git"
+  },
+  "author": "Jeff Cooper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cuperman/react-material-ui/issues"
+  },
+  "homepage": "https://github.com/cuperman/react-material-ui#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "eslint": "^4.5.0",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.3.0",
+    "webpack-dev-server": "^2.5.1"
+  },
+  "dependencies": {
+    "material-ui": "^0.19.4",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  }
+}
